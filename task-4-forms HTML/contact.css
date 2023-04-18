@@ -1,0 +1,16 @@
+.row{
+    border: 1px solid #000;
+        width: auto;
+        overflow: auto;
+        white-space: nowrap;
+        height: fit-content;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+::placeholder{
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
